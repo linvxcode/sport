@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import { Motion } from "@/common/component/Motion";
 
 export const ImgFourth = () => {
   return (
-    <div>
+    <Motion>
       <Image
         alt="Img"
         src="/aset/svg/ballbig.svg"
@@ -13,6 +14,6 @@ export const ImgFourth = () => {
         style={{ width: "auto", height: "auto" }}
         priority
       />
-    </div>
+    </Motion>
   );
 };

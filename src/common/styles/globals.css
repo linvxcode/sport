@@ -50,3 +50,30 @@ body {
 .stick{
   height: 600px;
 }
+
+.buttoneffect{
+  position: relative;
+  /* display: inline-block; */
+  /* margin: 15px; */
+  padding: 8px;
+  text-align: center;
+  /* font-size: 18px; */
+  /* letter-spacing: 1px; */
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #d8d8d8;
+}
+
+.buttoneffect:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #EF7708;
+}
+
+.buttoneffect:active {
+  transform: scale(0.9);
+}

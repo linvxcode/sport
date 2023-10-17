@@ -20,7 +20,7 @@ export const Navbar = () => {
       </div>
 
       <div className="flex justify-end items-end">
-        <button className="hover:bg-white hover:text-black transition-all duration-300 outline outline-1 h-[40px] text-white outline-white p-2 w-[130px] rounded-2xl ">
+        <button className="buttoneffect ">
         Login
         </button>
       </div>
